@@ -15,6 +15,8 @@ Dataset được cấu hình tự động tải từ Hugging Face Hub:
 !git clone [https://github.com/doantrongthai/lightweight_polyp_segmentation.git](https://github.com/doantrongthai/lightweight_polyp_segmentation.git)
 %cd lightweight_polyp_segmentation
 !pip install -r requirements.txt
+
+### 2. Project Structure
 lightweight_polyp_segmentation/
 ├── main.py
 ├── requirements.txt
