@@ -17,7 +17,7 @@ def _list_images(folder):
 
 class PolypTrainDataset(Dataset):
     def __init__(self, root, image_size=352, augment=True):
-        self.image_dir = os.path.join(root, "images")
+        self.image_dir = os.path.join(root, "image")
         self.mask_dir = os.path.join(root, "masks")
         if not os.path.isdir(self.mask_dir):
             self.mask_dir = os.path.join(root, "masks")
