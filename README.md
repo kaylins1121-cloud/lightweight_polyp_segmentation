@@ -9,15 +9,7 @@ Dataset được cấu hình tự động tải từ Hugging Face Hub:
 
 ## Installation & Google Colab Quickstart
 Để chạy trên Google Colab với GPU Tesla T4, hãy thực hiện lần lượt các cell dưới đây.
-
-### 1. Clone Repository & Cài đặt Thư viện
-```bash
-!git clone [https://github.com/doantrongthai/lightweight_polyp_segmentation.git](https://github.com/doantrongthai/lightweight_polyp_segmentation.git)
-%cd lightweight_polyp_segmentation
-!pip install -r requirements.txt
-
-### 2. Project Structure
-lightweight_polyp_segmentation/
+### lightweight_polyp_segmentation/
 ├── main.py
 ├── requirements.txt
 ├── README.md
@@ -34,3 +26,8 @@ lightweight_polyp_segmentation/
 │   └── segmentation.py
 └── utils/
     └── helpers.py
+#### 1. Clone Repository & Cài đặt Thư viện
+```bash
+!git clone [https://github.com/doantrongthai/lightweight_polyp_segmentation.git](https://github.com/doantrongthai/lightweight_polyp_segmentation.git)
+%cd lightweight_polyp_segmentation
+!pip install -r requirements.txt
