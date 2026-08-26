@@ -1,9 +1,0 @@
-*.pyc
-__pycache__/
-.ipynb_checkpoints/
-checkpoints/
-results/
-dataset/
-*.pth
-*.pt
-.DS_Store
